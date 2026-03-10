@@ -3,33 +3,33 @@ import { Shield, BookOpen, LineChart, Users, Target, Lightbulb } from 'lucide-re
 const services = [
   {
     icon: Shield,
-    title: 'Risk Assessment',
-    description: 'Comprehensive evaluation of your business risks with actionable insights and mitigation strategies.'
+    title: 'Customer Experience Audit',
+    description: 'Deep-dive analysis of your customer journey to uncover pain points, service gaps, and opportunities for improvement.'
   },
   {
     icon: BookOpen,
-    title: 'Risk Education',
-    description: 'Interactive training programs that teach your team the fundamentals of risk management.'
+    title: 'CX Measurement & Analytics',
+    description: 'Establish measurable KPIs and monitoring systems to track customer satisfaction, retention, and loyalty metrics consistently.'
   },
   {
     icon: LineChart,
-    title: 'Growth Strategy',
-    description: 'Data-driven strategies to help your business scale while managing associated risks.'
+    title: 'Operational Excellence',
+    description: 'Strengthen internal processes and controls to ensure consistent service delivery and operational efficiency across all touchpoints.'
   },
   {
     icon: Users,
-    title: 'Consulting Services',
-    description: 'One-on-one expert guidance tailored to your specific business challenges and goals.'
+    title: 'Team Alignment & Training',
+    description: 'Align your entire organization around customer-centric values and equip teams with tools to deliver exceptional experiences.'
   },
   {
     icon: Target,
-    title: 'Compliance Support',
-    description: 'Navigate regulatory requirements and ensure your business stays compliant.'
+    title: 'Retention Strategy',
+    description: 'Develop actionable strategies to improve customer retention, reduce churn, and increase lifetime value.'
   },
   {
     icon: Lightbulb,
-    title: 'Innovation Advisory',
-    description: 'Strategic advice on adopting new technologies and processes with minimal risk.'
+    title: 'Sustainable Growth Planning',
+    description: 'Build long-term strategies for predictable, sustainable business growth rooted in strong customer relationships.'
   }
 ];
 
@@ -38,9 +38,9 @@ export default function Services() {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">How We Help</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Comprehensive risk management solutions designed to protect and grow your business
+            Comprehensive solutions to help you understand, measure, and improve your customer experience
           </p>
         </div>
 

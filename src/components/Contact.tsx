@@ -7,10 +7,10 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="text-white space-y-8">
             <div>
-              <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
+              <h2 className="text-4xl font-bold mb-4">Start Your CX Transformation</h2>
               <p className="text-blue-100 text-lg">
-                Ready to transform your approach to risk management?
-                Let's start a conversation about your business goals.
+                Ready to understand your customers better and strengthen your business?
+                Let's discuss how we can help you improve customer experience and drive sustainable growth.
               </p>
             </div>
 

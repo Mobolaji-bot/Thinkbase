@@ -8,18 +8,18 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
               <TrendingUp size={16} />
-              Risk Management Experts
+              CX-Led Business Advisory
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Navigate Risk,
-              <span className="text-blue-600"> Unlock Growth</span>
+              Transform Customer Experience,
+              <span className="text-blue-600"> Transform Your Business</span>
             </h1>
 
             <p className="text-xl text-gray-600 leading-relaxed">
-              Expert risk consulting and education to help your business thrive.
-              We teach you the know-how of business risk management and provide
-              strategies for sustainable growth.
+              Most businesses fail because customer experience is unmanaged, unmeasured, and inconsistent.
+              We help you understand your real customer experience, identify gaps, and build sustainable growth
+              through stronger operations and customer retention.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
