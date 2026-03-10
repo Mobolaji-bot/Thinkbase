@@ -36,10 +36,14 @@ export default function Header() {
             </  div>
 
             {isMenuOpen && (
-                <div className="md:hidden bg-white border-t border-gray-100">
-                    <div className="px-4 py-4 space-y-3">
-                        <NavMenus/>
-                        <GetStarted/>
+                <div className="absolute right-4 top-16 w-64 bg-white border border-gray-100 shadow-xl rounded-2xl z-50">
+                    <div className="flex flex-col px-6 py-6 space-y-6">
+                        <nav className="flex flex-col">
+                            <NavMenus />
+                        </nav>
+                        <div className="pt-4 border-t border-gray-100">
+                            <GetStarted />
+                        </div>
                     </div>
                 </div>
             )}

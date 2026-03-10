@@ -24,7 +24,7 @@ export default function About() {
 
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-900">
-              Why <span className='text-[#43659b]'>Customer Experience</span> Matters
+              Why Customer Experience Matters
             </h2>
 
             <p className="text-lg text-black leading-relaxed">
