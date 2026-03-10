@@ -1,0 +1,7 @@
+export function GetStarted() {
+    return (
+        <a href="#contact" className="font-sans font-semibold text-lg bg-[#32517f] text-white px-6 py-2 rounded-3xl hover:bg-[#4167a0] transition-colors">
+            Get Started
+        </a>
+    )
+}
