@@ -36,7 +36,7 @@ export default function Header() {
             </  div>
 
             {isMenuOpen && (
-                <div className="absolute right-4 top-16 w-64 bg-white border border-gray-100 shadow-xl rounded-2xl z-50">
+                <div className="md:hidden absolute right-4 top-16 w-64 bg-white border border-gray-100 shadow-xl rounded-2xl z-50">
                     <div className="flex flex-col px-6 py-6 space-y-6">
                         <nav className="flex flex-col">
                             <NavMenus />
