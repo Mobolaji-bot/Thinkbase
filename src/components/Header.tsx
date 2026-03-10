@@ -9,14 +9,12 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <a href="#home" className="flex items-center hover:scale-105 transition-transform">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-2 shadow-sm border border-blue-200/50">
-                <img
-                  src="/ThinkBase_version_2_Logo_5.jpg"
-                  alt="Thinkbase Logo"
-                  className="h-10 w-10 object-cover rounded"
-                />
-              </div>
+            <a href="#home" className="flex items-center hover:opacity-80 transition-opacity">
+              <img
+                src="/ThinkBase_version_2_Logo_5.jpg"
+                alt="Thinkbase Logo"
+                className="h-12 w-12 object-cover"
+              />
             </a>
           </div>
 
