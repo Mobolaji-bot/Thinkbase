@@ -23,11 +23,11 @@ export default function Hero() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-[#304c76] text-white px-8 py-4 rounded-lg hover:bg-[#5988ce] transition-all hover:scale-105 font-medium shadow-md">
+                            <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-[#304c76] text-white px-8 py-4 rounded-lg hover:bg-[#5988ce] transition-all hover:scale-110 font-medium shadow-md">
                                 Start Your Journey
                                 <ArrowRight size={20} />
                             </a>
-                            <a href="#services" className="inline-flex items-center justify-center gap-2 bg-[#cad8ec] text-black px-8 py-4 rounded-lg transition-colors font-medium shadow-sm">
+                            <a href="#services" className="hover:scale-105 inline-flex items-center justify-center gap-2 bg-[#cad8ec] text-black px-8 py-4 rounded-lg transition-colors font-medium shadow-sm">
                                 Explore Services
                             </a>
                         </div>
