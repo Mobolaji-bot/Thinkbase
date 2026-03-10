@@ -11,12 +11,12 @@ const features = [
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-20 bg-[#e0e5ef]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="assets/customer.jpeg"
               alt="Team collaboration"
               className="rounded-2xl shadow-2xl"
             />
@@ -27,13 +27,13 @@ export default function About() {
               Why Customer Experience Matters
             </h2>
 
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-black leading-relaxed">
               Most businesses fail not because of bad products, but because customer experience is unmanaged, unmeasured, and inconsistent.
               We believe that when you truly understand your customers and strengthen your operations around that understanding,
               sustainable growth naturally follows.
             </p>
 
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-black leading-relaxed">
               We combine comprehensive CX audits, advanced measurement systems, and operational optimization to help you close
               the gap between your intended customer experience and what's actually being delivered.
             </p>
@@ -41,7 +41,7 @@ export default function About() {
             <div className="space-y-4 pt-4">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <CheckCircle2 className="text-green-600 flex-shrink-0 mt-1" size={24} />
+                  <CheckCircle2 className="text-[#2857a3] flex-shrink-0 mt-1" size={24} />
                   <span className="text-gray-700">{feature}</span>
                 </div>
               ))}

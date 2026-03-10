@@ -38,7 +38,7 @@ export default function Services() {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">How We Help</h2>
+          <h2 className="text-4xl font-bold text-black mb-4">How We Help</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Comprehensive solutions to help you understand, measure, and improve your customer experience
           </p>
@@ -48,13 +48,13 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group p-8 bg-gray-50 rounded-2xl hover:bg-blue-50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              className="group p-8 bg-[#cad8ec] rounded-2xl hover:bg-blue-50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
             >
-              <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-[#3e5f94] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <service.icon className="text-white" size={28} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">{service.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{service.description}</p>
+              <p className="text-black leading-relaxed">{service.description}</p>
             </div>
           ))}
         </div>
