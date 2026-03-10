@@ -7,17 +7,17 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero />
-      <Services />
-      <About />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="min-h-screen">
+            <Header />
+            <Hero />
+            <Services />
+            <About />
+            <Testimonials />
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
