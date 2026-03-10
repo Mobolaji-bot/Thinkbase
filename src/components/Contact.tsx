@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-blue-600 to-blue-800">
+    <section id="contact" className="py-20 bg-gradient-to-br from-[#314c74] to-[#739ddc]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="text-white space-y-8">
@@ -16,7 +16,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-[#1a283f] rounded-lg flex items-center justify-center flex-shrink-0">
                   <Mail size={24} />
                 </div>
                 <div>
@@ -26,7 +26,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-[#1a283f] rounded-lg flex items-center justify-center flex-shrink-0">
                   <Phone size={24} />
                 </div>
                 <div>
@@ -36,7 +36,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-[#1a283f] rounded-lg flex items-center justify-center flex-shrink-0">
                   <MapPin size={24} />
                 </div>
                 <div>
@@ -99,7 +99,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 font-medium"
+                className="w-full bg-[#3a5a8d] text-white px-8 py-4 rounded-lg hover:bg-[#5988ce] transition-colors flex items-center justify-center gap-2 font-medium"
               >
                 Send Message
                 <Send size={20} />

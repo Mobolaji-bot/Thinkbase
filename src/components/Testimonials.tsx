@@ -36,7 +36,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-shadow"
+              className="bg-[#dee3ec] p-8 rounded-2xl hover:shadow-xl transition-shadow"
             >
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
