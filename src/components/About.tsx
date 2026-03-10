@@ -16,7 +16,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="assets/customer.png"
+              src="assets/customer.jpeg"
               alt="Team collaboration"
               className="rounded-2xl shadow-2xl"
             />
