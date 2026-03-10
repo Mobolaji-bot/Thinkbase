@@ -13,7 +13,7 @@ export default function Hero() {
         
                         <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                             Transform Customer Experience,
-                            <span className="text-[#304c76]"> Transform Your Business</span>
+                            <span className="text-[#2c446b]"> Transform Your Business</span>
                         </h1>
         
                         <p className="text-lg font-sans text-black leading-relaxed">
@@ -23,11 +23,11 @@ export default function Hero() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-[#304c76] text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all hover:scale-105 font-medium">
+                            <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-[#304c76] text-white px-8 py-4 rounded-lg hover:bg-[#5988ce] transition-all hover:scale-105 font-medium shadow-md">
                                 Start Your Journey
                                 <ArrowRight size={20} />
                             </a>
-                            <a href="#services" className="inline-flex items-center justify-center gap-2 bg-white text-gray-700 px-8 py-4 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors font-medium">
+                            <a href="#services" className="inline-flex items-center justify-center gap-2 bg-[#cad8ec] text-black px-8 py-4 rounded-lg transition-colors font-medium shadow-sm">
                                 Explore Services
                             </a>
                         </div>
