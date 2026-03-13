@@ -6,10 +6,6 @@ export default function Hero() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-6rem)]">
                     <div className="space-y-8">
-                        <div className="inline-flex items-center gap-2 bg-[#b1c8eb] text-[#253b5b] px-4 py-2 rounded-full text-sm font-medium">
-                            <TrendingUp size={16} />
-                            CX-Led Business Advisory
-                        </div>
         
                         <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                             Transform Customer Experience,
@@ -34,16 +30,16 @@ export default function Hero() {
 
                         <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
                             <div>
-                                <p className="text-3xl font-bold text-gray-900">500+</p>
-                                <p className="text-gray-600">Clients Served</p>
+                                <p className="text-3xl font-bold text-gray-900">50+</p>
+                                <p className="text-gray-600">Years Combined<br/>Professional Experience</p>
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-gray-900">15+</p>
-                                <p className="text-gray-600">Years Experience</p>
+                                <p className="text-3xl font-bold text-gray-900">3</p>
+                                <p className="text-gray-600">Core Service<br/>Pillars</p>
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-gray-900">98%</p>
-                                <p className="text-gray-600">Success Rate</p>
+                                <p className="text-3xl font-bold text-gray-900">SME</p>
+                                <p className="text-gray-600">Focused Approach</p>
                             </div>
                         </div>
                     </div>

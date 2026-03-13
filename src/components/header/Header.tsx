@@ -17,7 +17,7 @@ export default function Header() {
                                 alt="Thinkbase Logo"
                                 className="h-14 w-14 object-cover"
                             />
-                            <h1 className='text-[#1d2d45] font-bold font-sans text-xl'>THINKBASE</h1>
+                            <h1 className='text-[#1d2d45] font-bold font-sans text-xl'>THINKBASE ADVISORY</h1>
                         </a>
                     </div>
 
