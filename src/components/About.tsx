@@ -15,7 +15,7 @@ export default function About() {
                 <div className="space-y-8">
                     <div>
                         <h1 className="text-5xl font-bold text-[#1d2d45] mb-6">About</h1>
-                        <h2 className="text-5xl font-bold text-[#1d2d45] underline decoration-[#f4a96f] decoration-4 underline-offset-4">ThinkBase Advisory</h2>
+                        <h2 className="text-5xl font-bold text-[#1d2d45] underline decoration-[#4c71a9] decoration-4 underline-offset-4">ThinkBase Advisory</h2>
                     </div>    
                     <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                         <p>

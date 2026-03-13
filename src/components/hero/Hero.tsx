@@ -23,7 +23,7 @@ export default function Hero() {
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-[#304c76] text-white px-8 py-4 rounded-lg hover:bg-[#5988ce] transition-all hover:scale-110 font-medium shadow-md">
-                                Start Your Journey
+                                Get Started
                                 <ArrowRight size={20} />
                             </a>
                             <a href="#services" className="hover:scale-105 inline-flex items-center justify-center gap-2 bg-[#cad8ec] text-black px-8 py-4 rounded-lg transition-colors font-medium shadow-sm">
@@ -33,16 +33,16 @@ export default function Hero() {
 
                         <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
                             <div>
-                                <p className="text-3xl font-bold text-gray-900">500+</p>
-                                <p className="text-gray-600">Clients Served</p>
+                                <p className="text-3xl font-bold text-gray-900">50+</p>
+                                <p className="text-gray-600">years of professional experience</p>
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-gray-900">15+</p>
-                                <p className="text-gray-600">Years Experience</p>
+                                <p className="text-3xl font-bold text-gray-900">3</p>
+                                <p className="text-gray-600">core service pillars</p>
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-gray-900">98%</p>
-                                <p className="text-gray-600">Success Rate</p>
+                                <p className="text-3xl font-bold text-gray-900">SME</p>
+                                <p className="text-gray-600">focused approach</p>
                             </div>
                         </div>
                     </div>

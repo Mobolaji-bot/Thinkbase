@@ -7,7 +7,7 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className="fixed top-0 left-0 right-0 bg-white bg-opacity-50 backdrop-blur-sm z-50 shadow-sm">
+        <header className="fixed top-0 left-0 right-0 bg-white bg-opacity-50 backdrop-blur-sm z-50 shadow-sm shadow-[#5279b3]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0">
@@ -17,7 +17,7 @@ export default function Header() {
                                 alt="Thinkbase Logo"
                                 className="h-14 w-14 object-cover"
                             />
-                            <h1 className='text-[#1d2d45] font-bold font-sans text-xl'>THINKBASE</h1>
+                            <h1 className='text-[#1d2d45] font-bold font-sans text-xl'>THINKBASE ADVISORY</h1>
                         </a>
                     </div>
 

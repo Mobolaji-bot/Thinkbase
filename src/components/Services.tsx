@@ -2,25 +2,25 @@ import { ArrowRight } from 'lucide-react';
 
 const servicePhases = [
   {
-    id: 'consultation',
-    title: 'CONSULTATION',
-    description: 'Understanding the business, its customers, and operational challenges.',
+    id: '1',
+    title: 'Customer Experience',
+    description: 'Understanding how customers actually experience your business and identifying areas for improvement.',
     image: 'assets/support.jpg',
-    shortDescription: 'Discover the foundations of your business and identify key opportunities through deep-dive consultation and analysis.'
+    shortDescription: 'We take customer experience audits and mystery shopping that reveal real service gaps, Customer Retention and Engagement Advisory.'
   },
   {
-    id: 'assessment',
-    title: 'BUSINESS OR CX ASSESSMENT',
-    description: 'Conducting audits, diagnostics, or risk reviews.',
+    id: '2',
+    title: 'Services and Controls',
+    description: 'Strengthening internal processes, operational discipline, and risk management practices.',
     image: 'assets/risk.jpg',
-    shortDescription: 'Comprehensive assessment of your customer experience and operational systems to identify gaps and risks.'
+    shortDescription: 'We provide capacity building and training to support effective implementation of systems, strengthen risk awareness, and promote a strong control culture within organisations.'
   },
   {
-    id: 'insights',
-    title: 'INSIGHT & REPORTING',
-    description: 'Delivering clear findings and practical recommendations.',
+    id: '3',
+    title: 'Business Advisory Services',
+    description: 'Supporting organisations with practical strategies and operational improvements that drive sustainable growth.',
     image: 'assets/business-support.jpg',
-    shortDescription: 'Transform data into actionable intelligence with clear visualizations and prioritized recommendations.'
+    shortDescription: 'We provide practical advisory support to organisations seeking to improve performance and growth.'
   },
 ];
 
