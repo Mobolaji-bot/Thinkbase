@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
     return (
-        <section id="home" className="pt-24 pb-16 bg-gradient-to-br from-[#7ea1d7] via-white to-[#38598a]">
+        <section id="home" className="pt-24 pb-16 bg-white border border-gray-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-6rem)]">
                     <div className="space-y-8">

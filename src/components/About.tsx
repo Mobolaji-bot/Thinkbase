@@ -5,24 +5,9 @@ const keyObjectives = [
   'Supporting businesses with effective systems, controls and risk management frameworks that prevent revenue leakage, service failures and achievement of organizational objectives.'
 ];
 
-const businessProblems = [
-  'Inconsistent customer service experiences',
-  'Limited visibility into how customers are treated',
-  'Weak internal processes and operational discipline',
-  'Poor complaint handling and customer follow-up',
-  'Lack of accountability across frontline teams'
-];
-
-const businessConsequences = [
-  'Customer churn',
-  'Reduced revenue growth',
-  'Reputational damage',
-  'Operational inefficiencies'
-];
-
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="pt-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-8">
@@ -65,44 +50,7 @@ export default function About() {
         </div>
 
 
-        <div className="bg-gradient-to-r from-[#1d2d45] to-[#3b5d91] text-white py-16 px-8 rounded-2xl space-y-12">
-          <div>
-            <h3 className="text-4xl font-bold mb-6">The BUSINESS PROBLEMS WE SOLVE</h3>
-            <p className="text-lg mb-8">
-              Many businesses lose customers and revenue due to hidden operational and service delivery gaps.
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h4 className="text-xl font-bold mb-4 text-blue-200">Common issues include:</h4>
-                <ul className="space-y-3">
-                  {businessProblems.map((problem, index) => (
-                    <li key={index} className="flex gap-3">
-                      <span className="text-blue-300 font-bold">▪</span>
-                      <span>{problem}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="text-xl font-bold mb-4 text-blue-200">These challenges can lead to:</h4>
-                <ul className="space-y-3">
-                  {businessConsequences.map((consequence, index) => (
-                    <li key={index} className="flex gap-3">
-                      <span className="text-blue-300 font-bold">▪</span>
-                      <span>{consequence}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-
-            <p className="mt-8 text-base font-semibold">
-              <span className="underline">Thinkbase Advisory</span> helps organisations identify and address these gaps in a structured and practical way.
-            </p>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
