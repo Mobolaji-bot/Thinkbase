@@ -16,9 +16,9 @@ export default function Contact() {
 
             <div className="grid gap-8">
               {[
-                { icon: <Mail />, label: 'Email Us', value: 'hello@thinkbase.com', color: 'bg-blue-50 text-[#3b5d91]' },
-                { icon: <Phone />, label: 'Call Us', value: '+1 (555) 123-4567', color: 'bg-indigo-50 text-[#3b5d91]' },
-                { icon: <MapPin />, label: 'Visit Us', value: '123 Business District, NY 10001', color: 'bg-gray-50 text-[#3b5d91]' }
+                { icon: <Mail />, label: 'Email Us', value: 'info@thinkbaseadvisory.com', color: 'bg-blue-50 text-[#3b5d91]' },
+                { icon: <Phone />, label: 'Call Us', value: '+234-911-999-0083', color: 'bg-indigo-50 text-[#3b5d91]' },
+                { icon: <MapPin />, label: 'Visit Us', value: 'Suite 100,Adeola house,Opebi Ikeja,Lagos', color: 'bg-gray-50 text-[#3b5d91]' }
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-6 group">
                   <div className={`w-14 h-14 ${item.color} rounded-2xl flex items-center justify-center transition-transform group-hover:scale-110 duration-300 shadow-sm`}>
