@@ -2,7 +2,6 @@ import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Services from './components/Services';
 import About from './components/About';
-import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -13,7 +12,6 @@ function App() {
             <Hero />
             <About />
             <Services />
-            <Testimonials />
             <Contact />
             <Footer />
         </div>

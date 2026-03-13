@@ -1,63 +1,73 @@
-import { Shield, BookOpen, LineChart, Users, Target, Lightbulb } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
-const services = [
+const servicePhases = [
   {
-    icon: Shield,
-    title: 'Customer Experience Audit',
-    description: 'Deep-dive analysis of your customer journey to uncover pain points, service gaps, and opportunities for improvement.'
+    id: 'consultation',
+    title: 'CONSULTATION',
+    description: 'Understanding the business, its customers, and operational challenges.',
+    image: 'assets/support.jpg',
+    shortDescription: 'Discover the foundations of your business and identify key opportunities through deep-dive consultation and analysis.'
   },
   {
-    icon: BookOpen,
-    title: 'CX Measurement & Analytics',
-    description: 'Establish measurable KPIs and monitoring systems to track customer satisfaction, retention, and loyalty metrics consistently.'
+    id: 'assessment',
+    title: 'BUSINESS OR CX ASSESSMENT',
+    description: 'Conducting audits, diagnostics, or risk reviews.',
+    image: 'assets/risk.jpg',
+    shortDescription: 'Comprehensive assessment of your customer experience and operational systems to identify gaps and risks.'
   },
   {
-    icon: LineChart,
-    title: 'Operational Excellence',
-    description: 'Strengthen internal processes and controls to ensure consistent service delivery and operational efficiency across all touchpoints.'
+    id: 'insights',
+    title: 'INSIGHT & REPORTING',
+    description: 'Delivering clear findings and practical recommendations.',
+    image: 'assets/business-support.jpg',
+    shortDescription: 'Transform data into actionable intelligence with clear visualizations and prioritized recommendations.'
   },
-  {
-    icon: Users,
-    title: 'Team Alignment & Training',
-    description: 'Align your entire organization around customer-centric values and equip teams with tools to deliver exceptional experiences.'
-  },
-  {
-    icon: Target,
-    title: 'Retention Strategy',
-    description: 'Develop actionable strategies to improve customer retention, reduce churn, and increase lifetime value.'
-  },
-  {
-    icon: Lightbulb,
-    title: 'Sustainable Growth Planning',
-    description: 'Build long-term strategies for predictable, sustainable business growth rooted in strong customer relationships.'
-  }
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-black mb-4">How We Help</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Comprehensive solutions to help you understand, measure, and improve your customer experience
+        <div className="text-center mb-20">
+          <h2 className="text-5xl font-bold text-[#1d2d45] mb-6">Our Service Model</h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            A comprehensive framework designed to understand your business, identify opportunities, and implement sustainable improvements.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {servicePhases.map((service) => (
             <div
-              key={index}
-              className="group p-8 bg-[#cad8ec] rounded-2xl hover:bg-blue-50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              key={service.id}
+              className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
             >
-              <div className="w-14 h-14 bg-[#3e5f94] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <service.icon className="text-white" size={28} />
+              <div className="flex justify-center h-48 overflow-hidden bg-white">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-[50%] h-full hover:scale-105 transition-transform duration-300"
+                />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{service.title}</h3>
-              <p className="text-black leading-relaxed">{service.description}</p>
+
+              <div className="p-6 flex flex-col flex-grow">
+                <h3 className="text-xl font-bold text-[#1d2d45] mb-2">{service.title}</h3>
+                <p className="text-sm text-gray-600 font-semibold mb-4">{service.description}</p>
+                <p className="text-gray-700 text-sm leading-relaxed mb-6 flex-grow">
+                  {service.shortDescription}
+                </p>
+
+                <a
+                  className="inline-flex items-center justify-center gap-2 bg-[#3b5d91] text-white px-6 py-2 rounded-lg hover:bg-[#1d2d45] transition-all duration-300 font-medium text-sm"
+                >
+                  Learn More
+                  <ArrowRight size={18} />
+                </a>
+              </div>
             </div>
           ))}
         </div>
+
+       
       </div>
     </section>
   );

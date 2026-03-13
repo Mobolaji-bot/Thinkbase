@@ -1,98 +1,97 @@
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, MessageSquare } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-t from-[#2c446b] to-[#5473a5]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12">
-          <div className="text-white space-y-8">
-            <div>
-              <h2 className="text-4xl font-bold mb-6">Get in Touch</h2>
-              <p className="text-blue-100 text-lg">
+    <section id="contact" className="py-24 bg-white relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-20">
+          <div className="space-y-12">
+            <div className="space-y-6">
+              <h2 className='font-bold text-5xl'>Get in Touch</h2>
+              <p className="text-xl text-gray-600 leading-relaxed">
                 Ready to understand your customers better and strengthen your business?
-                Let's discuss how we can help you improve customer experience and drive sustainable growth.
+                Let's discuss how we can help you build sustainable growth through operational excellence.
               </p>
             </div>
 
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#1a283f] rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Mail size={24} />
+            <div className="grid gap-8">
+              {[
+                { icon: <Mail />, label: 'Email Us', value: 'hello@thinkbase.com', color: 'bg-blue-50 text-[#3b5d91]' },
+                { icon: <Phone />, label: 'Call Us', value: '+1 (555) 123-4567', color: 'bg-indigo-50 text-[#3b5d91]' },
+                { icon: <MapPin />, label: 'Visit Us', value: '123 Business District, NY 10001', color: 'bg-gray-50 text-[#3b5d91]' }
+              ].map((item, i) => (
+                <div key={i} className="flex items-center gap-6 group">
+                  <div className={`w-14 h-14 ${item.color} rounded-2xl flex items-center justify-center transition-transform group-hover:scale-110 duration-300 shadow-sm`}>
+                    {item.icon}
+                  </div>
+                  <div>
+                    <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">{item.label}</p>
+                    <p className="text-lg font-bold text-[#1d2d45]">{item.value}</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="font-semibold mb-1">Email</p>
-                  <p className="text-blue-100">info@thinkbaseadvisory.com</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#1a283f] rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Phone size={24} />
-                </div>
-                <div>
-                  <p className="font-semibold mb-1">Phone</p>
-                  <p className="text-blue-100">+234-911-999-0083</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#1a283f] rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin size={24} />
-                </div>
-                <div>
-                  <p className="font-semibold mb-1">Location</p>
-                  <p className="text-blue-100">Suite 100,Adebola house,Opebi Ikeja,Lagos</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
-          <div className="bg-white p-8 rounded-2xl shadow-2xl">
-            <form className="space-y-6 mt-5">
-              <div>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-full focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
-                  placeholder="Full Name"
-                />
-              </div>
+          <div className="relative">
+            <div className="bg-white p-10 rounded-[2.5rem] shadow-[0_32px_64px_-16px_rgba(29,45,69,0.1)] border border-gray-100 relative z-10">
+              <h3 className="text-2xl font-bold text-[#1d2d45] mb-8 flex items-center gap-3">
+                <MessageSquare className="text-[#3b5d91]" />
+                Send a Message
+              </h3>
+              <form className="space-y-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-2">
+                    <label htmlFor="name" className="text-sm font-bold text-[#1d2d45] ml-1">Full Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all"
+                      placeholder="John Doe"
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <label htmlFor="email" className="text-sm font-bold text-[#1d2d45] ml-1">Email Address</label>
+                    <input
+                      type="email"
+                      id="email"
+                      className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all"
+                      placeholder="john@example.com"
+                    />
+                  </div>
+                </div>
 
-              <div>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-full focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
-                  placeholder="Email address"
-                />
-              </div>
+                <div className="space-y-2">
+                  <label htmlFor="company" className="text-sm font-bold text-[#1d2d45] ml-1">Company</label>
+                  <input
+                    type="text"
+                    id="company"
+                    className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all"
+                    placeholder="Your Company"
+                  />
+                </div>
 
-              <div>
-                <input
-                  type="text"
-                  id="company"
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-full focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
-                  placeholder="Company Name"
-                />
-              </div>
+                <div className="space-y-2">
+                  <label htmlFor="message" className="text-sm font-bold text-[#1d2d45] ml-1">Message</label>
+                  <textarea
+                    id="message"
+                    rows={4}
+                    className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all resize-none"
+                    placeholder="Tell us about your needs..."
+                  ></textarea>
+                </div>
 
-              <div>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition resize-none"
-                  placeholder="Tell us what you need"
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-[#3a5a8d] text-white px-8 py-4 rounded-full hover:bg-[#5988ce] transition-colors flex items-center justify-center gap-2 font-medium"
-              >
-                 Submit
-                <Send size={20} />
-              </button>
-            </form>
+                <button
+                  type="submit"
+                  className="w-full bg-[#1d2d45] text-white px-8 py-5 rounded-2xl hover:bg-[#3b5d91] transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 font-bold text-lg shadow-xl shadow-[#1d2d45]/10"
+                >
+                  Send Message
+                  <Send size={20} />
+                </button>
+              </form>
+            </div>
+            {/* Decorative element */}
+            <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-blue-100/50 rounded-full blur-3xl -z-10"></div>
           </div>
         </div>
       </div>
