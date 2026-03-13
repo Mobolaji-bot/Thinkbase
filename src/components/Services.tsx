@@ -57,7 +57,7 @@ export default function Services() {
                 </p>
 
                 <a
-                  className="inline-flex items-center justify-center gap-2 bg-[#3b5d91] text-white px-6 py-2 rounded-lg hover:bg-[#1d2d45] transition-all duration-300 font-medium text-sm"
+                  className="inline-flex items-center justify-center gap-2 bg-[#324a70] text-white px-6 py-2 rounded-lg hover:bg-[#1d2d45] transition-all duration-300 font-medium text-sm"
                 >
                   Learn More
                   <ArrowRight size={18} />

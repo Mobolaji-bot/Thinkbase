@@ -34,49 +34,49 @@ export default function Contact() {
           </div>
 
           <div className="relative">
-            <div className="bg-white p-10 rounded-[2.5rem] shadow-[0_32px_64px_-16px_rgba(29,45,69,0.1)] border border-gray-100 relative z-10">
-              <h3 className="text-2xl font-bold text-[#1d2d45] mb-8 flex items-center gap-3">
-                <MessageSquare className="text-[#3b5d91]" />
+            <div className="bg-[#324a70] p-10 rounded-[2.5rem] shadow-[0_32px_64px_-16px_rgba(29,45,69,0.1)] border border-gray-100 relative z-10">
+              <h3 className="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <MessageSquare className="text-white" />
                 Send a Message
               </h3>
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
-                    <label htmlFor="name" className="text-sm font-bold text-[#1d2d45] ml-1">Full Name</label>
+                    <label htmlFor="name" className="text-sm font-bold text-white ml-1">Full Name</label>
                     <input
                       type="text"
                       id="name"
-                      className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all"
+                      className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all shadow-sm"
                       placeholder="John Doe"
                     />
                   </div>
                   <div className="space-y-2">
-                    <label htmlFor="email" className="text-sm font-bold text-[#1d2d45] ml-1">Email Address</label>
+                    <label htmlFor="email" className="text-sm font-bold text-white ml-1">Email Address</label>
                     <input
                       type="email"
                       id="email"
-                      className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all"
+                      className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all shadow-sm"
                       placeholder="john@example.com"
                     />
                   </div>
                 </div>
 
                 <div className="space-y-2">
-                  <label htmlFor="company" className="text-sm font-bold text-[#1d2d45] ml-1">Company</label>
+                  <label htmlFor="company" className="text-sm font-bold text-white ml-1">Company</label>
                   <input
                     type="text"
                     id="company"
-                    className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all"
+                    className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all shadow-sm"
                     placeholder="Your Company"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <label htmlFor="message" className="text-sm font-bold text-[#1d2d45] ml-1">Message</label>
+                  <label htmlFor="message" className="text-sm font-bold text-white ml-1">Message</label>
                   <textarea
                     id="message"
                     rows={4}
-                    className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all resize-none"
+                    className="w-full px-5 py-4 bg-gray-50 border border-transparent rounded-2xl focus:bg-white focus:border-[#3b5d91]/30 focus:ring-4 focus:ring-[#3b5d91]/5 outline-none transition-all resize-none shadow-sm"
                     placeholder="Tell us about your needs..."
                   ></textarea>
                 </div>
