@@ -1,4 +1,4 @@
-import { ArrowRight, TrendingUp } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
     return (
@@ -6,9 +6,8 @@ export default function Hero() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-6rem)]">
                     <div className="space-y-8">
-                        <div className="inline-flex items-center gap-2 bg-[#b1c8eb] text-[#253b5b] px-4 py-2 rounded-full text-sm font-medium">
-                            <TrendingUp size={16} />
-                            CX-Led Business Advisory
+                        <div className="inline-flex items-center gap-2 bg-transparent text-[#253b5b] px-4 py-2 rounded-full text-sm font-medium">
+                            
                         </div>
         
                         <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">

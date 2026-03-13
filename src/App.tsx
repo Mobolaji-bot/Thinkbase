@@ -11,8 +11,8 @@ function App() {
         <div className="min-h-screen">
             <Header />
             <Hero />
-            <Services />
             <About />
+            <Services />
             <Testimonials />
             <Contact />
             <Footer />
